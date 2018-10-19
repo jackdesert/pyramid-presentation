@@ -1,4 +1,14 @@
-<!-- page_number: true -->
+<!-- page_number: true 
+     $theme: gaia
+     template: invert
+     footer: github.com/jackdesert/pyramid-presentation
+     prerender: true
+
+-->
+
+
+
+
 Pyramid
 ==
 Why you want it
