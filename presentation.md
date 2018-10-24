@@ -1,4 +1,4 @@
-<!-- page_number: true 
+<!-- page_number: true
      $theme: gaia
      template: invert
      prerender: true
@@ -13,7 +13,8 @@
 
 Pyramid
 ==
-Why you want it
+
+Treasures In Store?
 
 # ![](images/pyramid_photo_1.jpg)
 
@@ -108,12 +109,109 @@ CookieCutters 101
 
 ---
 
+Stethoscope
+==
+
+A location predictor
+Uses bluetooth
+
+---
+# ![](images/house_with_walls.png)
+
+---
+
+API
+==
+bip-stethoscope.elitecare.com
+
+
+---
+
+What I Expect from a Framework (1)
+==
+
+Serve static assets in development
+
+    config.add_static_view(name='static',
+                           path='/var/www/static')
+---
+
+What I Expect from a Framework (2)
+==
+
+Reload code in development
+
+    env/bin/pserve development --reload
+
+
+
+---
+
+What I Expect from a Framework (3)
+==
+
+Plays nicely with nginx
+
+(Had no problems with waitress + nginx via tcp)
+
+---
+
+What I Expect from a Framework (4)
+==
+
+4. Popularity
+6. No Bugs
+7. Template integration
+8. Consistency
+9. REPL-based development
+10. Console
+11. Documentation
+
+---
+
+Using it in Production
+==
+1. Logger?
+2. Training Keras ~ 500MB resident size
+3. uWSGI is a rabbit hole!! (waitress + systemd is much easier)
+---
+
+Rabbit Hole!!
+==
+
+## Serving via uWSGI
+
+(Built-in `waitress` server + systemd is much easier)
+
+---
+
 Preparation
 ==
 
+* Put podium near stage right looking out
+* mon4
+* Press home button twice on back of white remote to get lamp warning to go away
+* If screen does not respond, for example after running on laptop monitor for a long time, unplug and replug HDMI cord into laptop
+* If screen does not respond, for example after running on laptop monitor for a long time, unplug and replug HDMI cord into lapto
 * Bring power adapter
-* Check screen resolution 
+* Bring extension cord for power
+* Microphone is available...LP1
+* Check screen resolution
 * Find a way to make in-browser stuff big enough (CTRL-PLUS makes everything but the url bar bigger)(What about bigger icons or lower resolution?)
 * Make in-terminal stuff big enough (CTRL-SHIFT-PLUS)
 * Export slides and make available on github (post to meetup?)
 * Create a cookiecutter project ahead of time in case no internet
+* Take keyboard so you can type fast
+* Get Internet Connection while there
+* Check IP address from there
+* Print slides: 1366x768 and 1360x768
+* Print slips of paper with
+  - bip-stethoscope.elitecare.com (Do we want to remap to pyramid-demo.jackdesert.com?
+  - Pyramid
+  - github.com/jackdesert/arscca
+  - arscca.jackdesert.com
+  - list of all sites and source code I've built using pyramid
+  - link to cookiecutters
+  - link to this presentation
+* Make a backup of stethoscope database so I can wipe it after these guys clobber it
+* Write in to meetup to ask them to bring laptops if they want to poke the API
