@@ -2,6 +2,8 @@
      $theme: gaia
      template: invert
      prerender: true
+     $height: 768
+     $width: 1360
 
 
      _footer: github.com/jackdesert/pyramid-presentation
@@ -176,12 +178,24 @@ Using it in Production
 3. uWSGI is a rabbit hole!! (waitress + systemd is much easier)
 ---
 
-Rabbit Hole!!
+Rabbit Hole!! :hole: :rabbit: :hole:
 ==
 
 ## Serving via uWSGI
 
 (Built-in `waitress` server + systemd is much easier)
+
+---
+
+Will I use Pyramid in the Future?
+==
+Yes!
+
+1. arscca.jackdesert.com
+2. dan.jackdesert.com
+3. drive.jackdesert.com
+4. shop.jackdesert.com
+5. website-monitor.jackdesert.com (coming soon)
 
 ---
 
@@ -215,3 +229,4 @@ Preparation
   - link to this presentation
 * Make a backup of stethoscope database so I can wipe it after these guys clobber it
 * Write in to meetup to ask them to bring laptops if they want to poke the API
+* Put source code to arscca on github so people can see it
